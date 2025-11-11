@@ -7,12 +7,15 @@ body {
   padding: 0;
 }
 header {
-  background-image: url("uai_vinadelmar_02.jpg"); /* ejemplo, cambia por tu imagen */
-  background-size: cover;   /* ajusta la imagen al ancho del header */
-  background-position: center; /* centra la imagen */
+  background-image: url("uai_vinadelmar_02.png");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
   color: white;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.6); /* mejora legibilidad */
-  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
 main {
