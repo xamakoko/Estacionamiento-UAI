@@ -7,10 +7,14 @@ body {
   padding: 0;
 }
 header {
-  background: #003366;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/UAI_logo.svg/2560px-UAI_logo.svg.png"); /* ejemplo, cambia por tu imagen */
+  background-size: cover;   /* ajusta la imagen al ancho del header */
+  background-position: center; /* centra la imagen */
   color: white;
-  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6); /* mejora legibilidad */
+  padding: 40px 20px;
 }
+
 main {
   display: flex;
   flex-direction: column;
