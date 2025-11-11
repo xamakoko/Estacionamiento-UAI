@@ -7,7 +7,7 @@ body {
   padding: 0;
 }
 header {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/UAI_logo.svg/2560px-UAI_logo.svg.png"); /* ejemplo, cambia por tu imagen */
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.learnchile.cl%2Finstituciones%2Funiversidad-adolfo-ibanez%2F&psig=AOvVaw0peuxvK4nP47TFnrjlaw8P&ust=1762976971744000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMiX1pLv6pADFQAAAAAdAAAAABAE"); /* ejemplo, cambia por tu imagen */
   background-size: cover;   /* ajusta la imagen al ancho del header */
   background-position: center; /* centra la imagen */
   color: white;
