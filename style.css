@@ -7,7 +7,20 @@ body {
   padding: 0;
 }
 header {
-  background-image: url("https://eventos.cmm.uchile.cl/discretas2025/wp-content/uploads/sites/202/2024/09/uai_vinadelmar_02.jpg");
+  /* Prueba primero la ruta relativa a este archivo CSS (mismo directorio) */
+  background-image: url("./uai_vinadelmar_02.jpg");
+
+  /* Alternativas (descomenta la que corresponda según la ubicación real):
+     Si la imagen está en una carpeta 'images' junto a style.css:
+     background-image: url("./images/uai_vinadelmar_02.jpg");
+
+     Si style.css está en /css/style.css y la imagen en la raíz del proyecto:
+     background-image: url("../uai_vinadelmar_02.jpg");
+
+     Si publicas en GitHub Pages (a veces necesitas ruta absoluta con el nombre del repo):
+     background-image: url("/Estacionamiento-UAI/uai_vinadelmar_02.jpg");
+  */
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,6 +30,9 @@ header {
   justify-content: center;
   align-items: center;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+
+  /* Color de fallback por si la imagen no carga — útil para depuración */
+  background-color: #2b6fbf;
 }
 header h1 {
   font-size: 2.5em;
