@@ -8,7 +8,7 @@ body {
 }
 header {
   /* Prueba primero la ruta relativa a este archivo CSS (mismo directorio) */
-  background-image: url("/Estacionamiento-UAI/headerimage_BANNER_660x220_UAI.jpg");
+  background-image: url("/Estacionamiento-UAI/image.png");
 
   /* Alternativas (descomenta la que corresponda según la ubicación real):
      Si la imagen está en una carpeta 'images' junto a style.css:
